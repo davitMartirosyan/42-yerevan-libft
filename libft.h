@@ -53,6 +53,7 @@ int		ft_strncmp(const char *s1, const char *s2, size_t n);
 int		ft_atoi(const char *nptr);
 int		ft_isalnum(int an);
 int		ft_isalpha(int c);
+int		ft_isspace(int ch);
 int		ft_isascii(int ascii);
 int		ft_isdigit(int i);
 int		ft_isprint(int print);
