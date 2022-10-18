@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: dmartiro <marvin@42.fr>                    +#+  +:+       +#+         #
+#    By: user <user@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/28 20:17:29 by dmartiro          #+#    #+#              #
-#    Updated: 2022/04/04 18:29:37 by dmartiro         ###   ########.fr        #
+#    Updated: 2022/10/18 15:49:31 by user             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -28,6 +28,7 @@ SRCS = ft_memset.c		\
 		ft_strchr.c		\
 		ft_strrchr.c	\
 		ft_strncmp.c	\
+		ft_strcmp.c		\
 		ft_strlcpy.c	\
 		ft_strlcat.c	\
 		ft_strnstr.c	\
@@ -71,6 +72,7 @@ CFLAGS = -Wall -Wextra -Werror
 
 $(OBJS_DIR)%.o : %.c libft.h
 	@mkdir -p $(OBJS_DIR)
+	@echo -n  {$@}
 	@$(CC) $(CFLAGS) -c $< -o $@
 
 $(NAME): $(OBJECTS_PREFIXED)
