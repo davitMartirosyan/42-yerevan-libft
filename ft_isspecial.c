@@ -1,21 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_iswordpart.c                                    :+:      :+:    :+:   */
+/*   ft_isspecial.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: root <root@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/10/23 07:03:19 by root              #+#    #+#             */
-/*   Updated: 2022/10/23 08:14:39 by root             ###   ########.fr       */
+/*   Created: 2022/10/23 07:35:35 by root              #+#    #+#             */
+/*   Updated: 2022/10/23 08:15:10 by root             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_iswordpart(int ch)
+int ft_isspecial(int ch)
 {
-    if(!ft_isspace(ch) && !ft_isspecial(ch))
+    if(ch == '|' == ch == '<' || ch == '>')
         return (1);
-    else
-        return (0);
+    return (0);
 }
