@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: user <user@student.42.fr>                  +#+  +:+       +#+         #
+#    By: root <root@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/28 20:17:29 by dmartiro          #+#    #+#              #
-#    Updated: 2022/10/18 15:49:31 by user             ###   ########.fr        #
+#    Updated: 2022/10/23 07:07:39 by root             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,6 +20,7 @@ SRCS = ft_memset.c		\
 		ft_isalpha.c 	\
 		ft_isdigit.c	\
 		ft_isspace.c	\
+		ft_iswordpart.c	\
 		ft_isalnum.c	\
 		ft_isascii.c	\
 		ft_isprint.c	\
