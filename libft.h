@@ -6,7 +6,7 @@
 /*   By: dmartiro <dmartiro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/04 18:22:35 by dmartiro          #+#    #+#             */
-/*   Updated: 2023/02/17 00:21:51 by dmartiro         ###   ########.fr       */
+/*   Updated: 2024/03/22 20:37:41 by dmartiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <unistd.h>
 # include <stdlib.h>
 # include <math.h>
+# include "get_next_line.h"
 typedef struct s_list
 {
 	void			*content;

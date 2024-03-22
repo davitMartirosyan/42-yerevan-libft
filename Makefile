@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: root <root@student.42.fr>                  +#+  +:+       +#+         #
+#    By: dmartiro <dmartiro@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/28 20:17:29 by dmartiro          #+#    #+#              #
-#    Updated: 2022/10/23 07:40:21 by root             ###   ########.fr        #
+#    Updated: 2024/03/22 20:38:11 by dmartiro         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -47,7 +47,9 @@ SRCS = ft_memset.c		\
 		ft_putchar_fd.c	\
 		ft_putstr_fd.c	\
 		ft_putendl_fd.c	\
-		ft_putnbr_fd.c
+		ft_putnbr_fd.c \
+		get_next_line.c \
+		get_next_line_utils.c
 
 SRCSB =	ft_lstnew.c			\
 		ft_lstadd_front.c	\
